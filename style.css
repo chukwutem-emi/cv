@@ -120,5 +120,10 @@ h3 {
     flex-wrap: row nowrap;
     margin-left: 20px;
 }
-
-
+/* medial query for mobile responsiveness */
+@media (max-width:768px) {
+    article {
+        margin: 20px;
+        padding: 10px;
+    }
+}
