@@ -82,18 +82,43 @@ h3 {
     margin-top: 30px;
     background-color: white;
 }
-.watermark {
+.watermark-container {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
     z-index: 0;
     opacity: 0.4;
-    font-size: 5em;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     color: green;
     text-align: center;
     width: 100%;
     pointer-events: none;
+}
+.watermark {
+    margin: 10px 0;
+    color: green;
+}
+.para3 {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.ul3  {
+    margin-left: 40px;
+    margin-top: 0;
+}
+.sect1 {
+    display: flex;
+    justify-content:space-between;
+    flex-basis: 10%;
+    flex-wrap: row nowrap;
+    margin-left: 20px;
 }
 
 
