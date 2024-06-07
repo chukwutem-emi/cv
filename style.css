@@ -121,7 +121,7 @@ h3 {
     margin-left: 20px;
 }
 /* medial query for mobile responsiveness */
-@media (max-width:768px) {
+@media (max-width:480px) {
     article {
         margin: 20px;
         padding: 10px;
