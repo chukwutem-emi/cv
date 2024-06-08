@@ -144,7 +144,8 @@ h3 {
         background-color: white;
     }
     article {
-        width: 40rem;
+        width: 375px;
+        /* height: 667px; */
         margin: 0 auto;
     }
     body {
