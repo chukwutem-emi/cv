@@ -21,7 +21,7 @@ article {
     margin: 0 auto;
 }
 body {
-    background-color:bisque;
+    background-color:black;
     margin: 0;
     padding: 0;
     position: relative;
@@ -123,6 +123,12 @@ h3 {
     flex-wrap: row nowrap;
     margin-left: 20px;
 }
+.dl1 {
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
 /* medial query for mobile responsiveness */
 @media screen and (max-width:600px) {
     h1 {
@@ -151,7 +157,7 @@ h3 {
         margin: 0 auto;
     }
     body {
-        background-color:bisque;
+        background-color:black;
         margin: 0;
         padding: 0;
         position: relative;
@@ -204,7 +210,7 @@ h3 {
         font-weight: bold;
         margin-left: 1.2rem;
         margin-right: 1.2rem;
-        font-size: 10px;
+        font-size: 0.7rem;
     }
     .ul2 {
         margin-left: 0.2rem;
@@ -224,24 +230,26 @@ h3 {
     }
     .watermark-container {
         position: fixed;
-        top: 50rem;
-        left: 50rem;
+        top: 50%;
+        left: 50%;
         transform: translate(-50rem, -50rem) rotate(-45deg);
         z-index: 0;
-        opacity: 0.4;
+        opacity: 0.8;
         display: flex;
-        font-size: 1.5rem;
+        font-size: 5rem;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        color: green;
+        color:green;
         text-align: center;
         width: 100rem;
+        height: 100rem;
         pointer-events: none;
     }
     .watermark {
-        margin: 1rem 0;
+        margin: 0.5rem 0;
         color: green;
+        font-size: 1.5rem;
     }
     .para3 {
         margin-left: 2.5rem;
@@ -269,4 +277,11 @@ h3 {
         margin-right: 1.5rem;
         margin-left: 0.2rem;
     }
+    .dl1 {
+        margin-left: 1.3rem;
+        margin-right: 0.8rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.6rem;
+    }
+
 }
